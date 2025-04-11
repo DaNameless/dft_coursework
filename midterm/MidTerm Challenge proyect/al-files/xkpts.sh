@@ -50,7 +50,7 @@ awk '/generate k-points for:/ {i=$4 " "$5" " $6; print i } ' OUTCAR > tmp2
 
 echo $k $( cat tmp ) $( cat tmp1 ) $( cat tmp2 ) >> kps.dat
 rm tmp*
-cp INCAR INCAR-atom
+cp INCAR INCAR-st
 
 done
 
