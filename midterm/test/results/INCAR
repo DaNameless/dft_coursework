@@ -1,0 +1,11 @@
+SYSTEM = si-sym141
+
+ISMEAR = -5          # Wavefunction occupancies
+ENCUT = 400         # what is the encut?
+KSPACING = 0.207345        # what is kpoints grid space?
+
+#LCHARG = .FALSE. # Do not write charge density to save time
+LORBIT = 11
+#%%%%%%%%%% PARALLELIZATION %%%%%%%%%%%%%%%%%%%%%%%
+#NCORE=2 ! cores per procesor
+NSIM=1  ! 
