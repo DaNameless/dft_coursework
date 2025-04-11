@@ -9,7 +9,14 @@ res=results
 cd $res
 cp KPOINTS-bs KPOINTS_OPT
 
-cp INCAR-bs INCAR
+cat > parallel<<!
+#%%%%%%%%%% PARALLELIZATION %%%%%%%%%%%%%%%%%%%%%%%
+#NCORE=$Cores ! cores per procesor
+NSIM=1  !
+!
+
+cat INCAR-bs parallel > INCAR
+
 
 mpirun -n $Cores vasp > output-bs.out
 wait

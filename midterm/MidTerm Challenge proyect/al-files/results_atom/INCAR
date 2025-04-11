@@ -1,0 +1,15 @@
+SYSTEM = Al atom
+ISMEAR = 0
+ENCUT = 400
+# Wavefunction occupancies
+# Plane wave cutoff
+ISTART = 0
+# Start calculation from scratch
+LWAVE = .FALSE. # Do not write wavefunctions to save time
+LCHARG = .FALSE. # Do not write charge density to save time
+ISPIN = 2
+# Allow spin polarized solution
+
+#%%%%%%%%%% PARALLELIZATION %%%%%%%%%%%%%%%%%%%%%%%
+NCORE=2 ! cores per procesor
+NSIM=1  ! 

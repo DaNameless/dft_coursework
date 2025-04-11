@@ -8,38 +8,22 @@
  scaLAPACK will be used
  Reading from existing POTCAR
  LDA part: xc-table for Pade appr. of Perdew
- -----------------------------------------------------------------------------
-|                                                                             |
-|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
-|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
-|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
-|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
-|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
-|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
-|                                                                             |
-|     The requested file  could not be found or opened for reading            |
-|     k-point information. Automatic k-point generation is used as a          |
-|     fallback, which may lead to unwanted results.                           |
-|                                                                             |
- -----------------------------------------------------------------------------
-
- INCAR ok, starting setup
- POSCAR ok, starting setup
+ POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ... GRIDC
  FFT: planning ... GRID_SOFT
  FFT: planning ... GRID
  WAVECAR not read
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1    -0.813823413532E+00   -0.81382E+00   -0.58164E+02   179   0.166E+02
-DAV:   2    -0.371618055630E+01   -0.29024E+01   -0.26816E+01   198   0.481E+01
-DAV:   3    -0.379303647282E+01   -0.76856E-01   -0.77094E-01   191   0.588E+00
-DAV:   4    -0.379327553514E+01   -0.23906E-03   -0.24549E-03   190   0.387E-01
-DAV:   5    -0.379327681142E+01   -0.12763E-05   -0.13766E-05   161   0.276E-02    0.152E+00
-DAV:   6    -0.378020547228E+01    0.13071E-01   -0.12784E-03   179   0.261E-01    0.877E-01
-DAV:   7    -0.377047378207E+01    0.97317E-02   -0.40245E-03   171   0.436E-01    0.175E-01
-DAV:   8    -0.377047152173E+01    0.22603E-05   -0.33374E-05   114   0.555E-02
-   1 F= -.37704715E+01 E0= -.37704715E+01  d E =0.000000E+00
+DAV:   1     0.101455361218E+00    0.10146E+00   -0.46905E+02  1916   0.164E+02
+DAV:   2    -0.366420881736E+01   -0.37657E+01   -0.34774E+01  1983   0.536E+01
+DAV:   3    -0.376012736429E+01   -0.95919E-01   -0.95608E-01  1984   0.630E+00
+DAV:   4    -0.376045839081E+01   -0.33103E-03   -0.33372E-03  1895   0.454E-01
+DAV:   5    -0.376045998390E+01   -0.15931E-05   -0.16088E-05  1489   0.327E-02    0.153E+00
+DAV:   6    -0.374760533395E+01    0.12855E-01   -0.12384E-03  1781   0.259E-01    0.879E-01
+DAV:   7    -0.373811318649E+01    0.94921E-02   -0.39585E-03  1746   0.434E-01    0.174E-01
+DAV:   8    -0.373811311241E+01    0.74078E-07   -0.34229E-05  1087   0.571E-02
+   1 F= -.37381131E+01 E0= -.37381131E+01  d E =0.000000E+00
  writing wavefunctions
  -----------------------------------------------------------------------------
 |                                                                             |

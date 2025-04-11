@@ -11,11 +11,11 @@ k=25
 cd $res
 rm W* CHG*
 
-cp INCAR-st INCAR 
+cp INCAR-bulk INCAR 
 
 for vol
 in 13.5 14. 14.5 15. 15.5 16. 16.5 17. 17.5 18. 18.5 19. 19.5 20. 20.5 \
-21. 21.5 ; do
+21. 21.5; do
 
 cat > POSCAR<<!
 Al 
@@ -29,15 +29,8 @@ Cartesian
   0.0000000000000000  0.0000000000000000  0.0000000000000000
 !
 
-
-cat > KPOINTS<<!
-Al Atom   # System label
-0              # Automatic generation
-Gamma      # Generation scheme
-$k $k $k          # Sampling - in this case single gamma point only
-0 0 0          # Shift
-!
-
+cp POSCAR POSCAR-bulk
+cp KPOINTS KPOINTS-bulk
 
 mpirun -n $Cores vasp > output-$lat.out
 wait

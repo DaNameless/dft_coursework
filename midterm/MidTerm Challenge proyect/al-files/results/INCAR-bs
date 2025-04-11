@@ -1,0 +1,8 @@
+SYSTEM = Al
+
+ISMEAR = -5          # Wavefunction occupancies
+ENCUT = 400         # what is the encut?
+
+#LCHARG = .FALSE. # Do not write charge density to save time
+LORBIT = 11
+

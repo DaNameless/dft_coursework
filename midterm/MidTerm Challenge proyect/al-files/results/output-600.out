@@ -8,25 +8,9 @@
  scaLAPACK will be used
  Reading from existing POTCAR
  LDA part: xc-table for Pade appr. of Perdew
- -----------------------------------------------------------------------------
-|                                                                             |
-|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
-|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
-|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
-|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
-|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
-|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
-|                                                                             |
-|     The requested file  could not be found or opened for reading            |
-|     k-point information. Automatic k-point generation is used as a          |
-|     fallback, which may lead to unwanted results.                           |
-|                                                                             |
- -----------------------------------------------------------------------------
-
  found WAVECAR, reading the header
  WAVECAR: different cutoff or change in lattice found
- INCAR ok, starting setup
- POSCAR ok, starting setup
+ POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ... GRIDC
  FFT: planning ... GRID_SOFT
  FFT: planning ... GRID
@@ -35,9 +19,9 @@
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1    -0.377954457496E+01   -0.37795E+01   -0.92491E-04   157   0.773E-01    0.204E-03
-DAV:   2    -0.377954467427E+01   -0.99309E-07   -0.11732E-07    83   0.381E-03
-   1 F= -.37795447E+01 E0= -.37795447E+01  d E =0.000000E+00
+DAV:   1    -0.374707554507E+01   -0.37471E+01   -0.96586E-04  1648   0.792E-01    0.208E-03
+DAV:   2    -0.374707564243E+01   -0.97360E-07   -0.12499E-07   828   0.393E-03
+   1 F= -.37470756E+01 E0= -.37470756E+01  d E =0.000000E+00
  writing wavefunctions
  -----------------------------------------------------------------------------
 |                                                                             |
