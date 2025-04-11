@@ -8,6 +8,6 @@ Remember the following steps:
 
 4) Calculation with optimal volume (xbulk.sh) *Change $opvol to value found in the previous step. In the INCAR-st comment LCHARGE = .FALSE, uncomment LORBIT=11*
 
-5) Calculate Band Structure (xbs.sh) *Obtain the KPOINTS_OPT in a KPOINTS-bs file.*
+5) Calculate Band Structure (xbs.sh) *Obtain the KPOINTS_OPT in a KPOINTS-bs file. Create a INCAR-bs file, copy the INCAR used for the DOS but remove the line #LPLANE=T !T if num nodes << NGX,NGY,NGZ*
 
 

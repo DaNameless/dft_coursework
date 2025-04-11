@@ -9,7 +9,7 @@ res=results
 cd $res
 cp KPOINTS-bs KPOINTS_OPT
 
-cp INCAR-st INCAR
+cp INCAR-bs INCAR
 
 mpirun -n $Cores vasp > output-bs.out
 wait
