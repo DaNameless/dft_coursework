@@ -5,8 +5,8 @@
 Cores=2
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-sys=????
-encut = ????
+sys=al.POSCAR
+encut=400
 
 res=results
 
@@ -15,10 +15,10 @@ cd $res
 rm W* CHG*
 
 for k
-in 1 2 3 4 5 ...; do
+in 15 16 17 18 19 20 21 22 23 24 25 26 27 28; do
 
 cat > INCAR<<!
-SYSTEM = ???? 
+SYSTEM = Al atom
 
 ISMEAR = -5          # Wavefunction occupancies
 ENCUT = $encut         # what is the encut?
@@ -33,9 +33,9 @@ NSIM=1  !
 !
 
 cat > KPOINTS<<!
-Silicon Atom   # System label
+Al Atom   # System label
 0              # Automatic generation
-Monkhorst      # Generation scheme
+Gamma      # Generation scheme
 $k $k $k          # Sampling - in this case single gamma point only
 0 0 0          # Shift
 !
@@ -50,7 +50,7 @@ awk '/generate k-points for:/ {i=$4 " "$5" " $6; print i } ' OUTCAR > tmp2
 
 echo $k $( cat tmp ) $( cat tmp1 ) $( cat tmp2 ) >> kps.dat
 rm tmp*
-cp INCAR INCAR-st
+cp INCAR INCAR-atom
 
 done
 
