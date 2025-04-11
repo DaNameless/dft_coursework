@@ -16,8 +16,7 @@ midterm/
 ## 🛠️ Setup & Usage  
 1. **Data & Scripts**:  
    - Raw data: `in al-files/`.   
-   - Results: Generated files .dat from bulk in `results/`. While atom results in `results-atom\`  
-patible with v12.0+  
+   - Results: Generated files .dat from bulk in `results/`. While atom results in `results-atom\`    
 
-3. **Reproducibility**:  
+2. **Reproducibility**:  
    Run scripts in order
