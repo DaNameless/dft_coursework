@@ -1,0 +1,5 @@
+Al Atom   # System label
+0              # Automatic generation
+Gamma      # Generation scheme
+28 28 28          # Sampling - in this case single gamma point only
+0 0 0          # Shift
