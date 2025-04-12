@@ -22,31 +22,31 @@ dft_coursework/
 
     Problem statements and solutions.
 
-    Code implementations (e.g., Python/Jupyter notebooks for DFT calculations).
+    Code implementations (e.g. bash scripts)
 
     Any auxiliary data or outputs.
+	
+    Analysis in a Mathematica notebook 
 
 3. Final (/final)
 
     Final project report (PDF/LaTeX).
 
-    Simulation code, input files (e.g., VASP, Quantum ESPRESSO).
+    Simulation code, input file.
 
     Results (plots, datasets, analysis scripts).
 
 ### Usage
 
     Clone the repository:
-    bash
-    Copy
-
-    git clone https://github.com/yourusername/dft_coursework.git  
+  
+    git clone https://github.com/DaNameless/dft_coursework.git  
 
     Navigate to the relevant folder (e.g., final/ for project files).
 
 ### Dependencies
 
-    Code may require DFT software (e.g., VASP, Gaussian) or Python libraries (NumPy, Matplotlib).
+    Code require DFT software VASP.
 
     Refer to individual folders for specific requirements.
 
@@ -56,7 +56,7 @@ dft_coursework/
 
     Instructor: Prof. Henry P. Pinto
 
-    Institution: [Your University Name, if applicable]
+    Institution: [YachayTech University]
 
 ### Contact
 
